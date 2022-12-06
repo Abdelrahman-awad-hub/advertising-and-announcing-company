@@ -308,7 +308,7 @@ a:hover {
 .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 18px;
-    color: var(--colorTree);
+    color: var(--colorThree);
 }
 
 .navbar-mobile a:hover,
