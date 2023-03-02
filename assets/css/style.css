@@ -380,6 +380,9 @@ a:hover {
     height: 100vh;
     /* background-color: rgba(17, 17, 17, 0.8); */
     background-image: url(/assets/img/hero.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
     padding: 0;
 }
