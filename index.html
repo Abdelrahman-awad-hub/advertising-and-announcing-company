@@ -33,180 +33,106 @@
 
 <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0" id="navbar">
+            <div class="container d-flex flex-row-reverse">
+                <img src="./assets/img/logo.svg" alt="" class="navbar-brand p-0 m-0" width="80">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav py-5 py-lg-0">
+                        <li class="nav-item active px-1 py-3 py-lg-0">
+                            <a class="nav-link scrollto" aria-current="page" href="#hero">الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav-item  px-1 py-3 py-lg-0">
+                            <a class="nav-link scrollto" href="#about">من نحن</a>
+                        </li>
+                        <li class="nav-item  px-1 py-3 py-lg-0">
+                            <a class="nav-link scrollto" href="#portfolio">أعمالنا</a>
+                        </li>
+                        <li class="nav-item dropdown  px-2 py-3 py-lg-0">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                                خدماتنا
+                            </a>
+                            <ul class="dropdown-menu text-center">
 
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                                <li class="nav-item dropdown  px-1 py-3 py-lg-0">
+                                    <a class="nav-link dropdown-toggle nestedLink" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        طباعة اوت دور
+                                    </a>
+                                    <ul class="dropdown-menu text-center">
+                                        <li>فليكس</li>
+                                        <li>بانر</li>
+                                    </ul>
+                                </li>
 
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li>
-                        <a class="nav-link scrollto active" href="#hero">الصفحة الرئيسية</a>
-                    </li>
-                    <li>
-                        <a class="nav-link scrollto" href="#about">من نحن</a>
-                    </li>
-                    <!-- <li>
-                            <a class="nav-link scrollto" href="#services"
-                                >Services</a
-                            >
-                        </li> -->
-                    <li>
-                        <a class="nav-link scrollto" href="#portfolio">أعمالنا</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#services"><span>خدماتنا</span>
-                            <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li class="dropdown">
-                                <a href="#"><span>طباعة اوت دور</span>
-                                    <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li>
-                                        <a href="#">بانر</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">فليكس</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#"><span>طباعة ان دور</span>
-                                    <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li>
-                                        <a href="#">فنيل</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">سي ثرو</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">كانفز</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">جلوسي</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">رول اب</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">بوب اب</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#"><span>ديجيتال</span>
-                                    <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li>
-                                        <a href="#">كروت & ID</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">بورشور</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">نوت بوك </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#"><span>اوفست</span>
-                                    <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li>
-                                        <a href="#">دفاتر</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">اظرف</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">استيكرات </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">فولدرات </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="#"><span>ليزر</span>
-                                    <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li>
-                                        <a href="#">براويز</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">هدايا</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">مداليات </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">اكريلك </a>
-                                    </li>
-                                </ul>
-                            </li>
-                    </li>
-
-
-                </ul>
-                <li>
-                    <a class="nav-link scrollto" href="#footer">معاومات التواصل</a>
-                </li>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-            <img src="./assets/img/logo.svg" alt="logo" width="70px">
-            <!-- .navbar -->
-        </div>
+                                <li class="nav-item dropdown  px-1 py-3 py-lg-0">
+                                    <a class="nav-link dropdown-toggle nestedLink" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        طباعة ان دور
+                                    </a>
+                                    <ul class="dropdown-menu text-center">
+                                        <li>بوب اب</li>
+                                        <li>رول اب</li>
+                                        <li>جلوسي</li>
+                                        <li>كانفز</li>
+                                        <li>فنيل</li>
+                                        <li>سي ثرو</li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown  px-1 py-3 py-lg-0">
+                                    <a class="nav-link dropdown-toggle nestedLink" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        ديجيتال
+                                    </a>
+                                    <ul class="dropdown-menu text-center">
+                                        <li>نوت بوك </li>
+                                        <li>بورشور</li>
+                                        <li>كروت & ID</li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown  px-1 py-3 py-lg-0">
+                                    <a class="nav-link dropdown-toggle nestedLink" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        اوفست
+                                    </a>
+                                    <ul class="dropdown-menu text-center">
+                                        <li>فولدرات</li>
+                                        <li>استيكرات</li>
+                                        <li>اظرف</li>
+                                        <li>دفاتر</li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown  px-1 py-3 py-lg-0">
+                                    <a class="nav-link dropdown-toggle nestedLink" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        ليزر
+                                    </a>
+                                    <ul class="dropdown-menu text-center">
+                                        <li>اكريلك</li>
+                                        <li>مداليات</li>
+                                        <li>هدايا</li>
+                                        <li>براويز</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item  px-1 py-3 py-lg-0">
+                            <a class="nav-link scrollto" href="#footer">تواصل معنا</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <!-- End Header -->
-
     <!-- ======= Hero Section ======= -->
     <section id="hero">
-        <!-- <div class="hero-container">
-            <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
-                <div class="carousel-inner" role="listbox">
-                    Slide 1
-                    <div class="carousel-item active" style="
-                                background-image: url(assets/img/printing.svg);
-                                background-size: 550px;
-                                background-position: center;
-                            ">
-                        <div class="carousel-container">
-
-                        </div>
-                    </div>
-
-                    Slide 2
-                    <div class="carousel-item" style="
-                                background-image: url(assets/img/slide/slider.jpg);
-                                background-size: contain;
-                                background-position: center center;
-                            ">
-                        <img src="./assets/img/slide/slide-3.jpg" alt="">
-                        <div class="carousel-container">
-
-                            <div>
-                                <a href="#about"
-                                    class="btn-get-started animate__animated animate__fadeInUp scrollto">المزيد</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-                </a>
-
-                <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-                </a>
-            </div>
-        </div> -->
+        <img src="./assets/img/hero1.svg" alt="">
     </section>
     <!-- End Hero -->
 
@@ -214,7 +140,7 @@
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container">
-                <div class="row no-gutters">
+                <div class="row no-gutters gx-0">
                     <div
                         class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start">
                     </div>
@@ -281,8 +207,7 @@
                             <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p>
-                                <strong>Happy Clients</strong> consequuntur
-                                quae
+                                <strong>Happy Clients</strong>
                             </p>
                         </div>
                     </div>
@@ -293,8 +218,7 @@
                             <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p>
-                                <strong>Projects</strong> adipisci atque cum
-                                quia aut
+                                <strong>Projects</strong>
                             </p>
                         </div>
                     </div>
@@ -305,8 +229,7 @@
                             <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p>
-                                <strong>Hours Of Support</strong> aut
-                                commodi quaerat
+                                <strong>Hours Of Support</strong>
                             </p>
                         </div>
                     </div>
@@ -317,8 +240,7 @@
                             <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p>
-                                <strong>Hard Workers</strong> rerum
-                                asperiores dolor
+                                <strong>Hard Workers</strong>
                             </p>
                         </div>
                     </div>
@@ -326,7 +248,6 @@
             </div>
         </section>
         <!-- End Counts Section -->
-
         <!-- ======= Why Us Section ======= -->
         <section id="why-us" class="why-us">
             <div class="container">
@@ -375,7 +296,6 @@
             </div>
         </section>
         <!-- End Why Us Section -->
-
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio" style="background-color: Var(--colorTwo);">
             <div class="container">
@@ -410,9 +330,9 @@
                                 <p>حامل إعلان بارتفاع 34 سم 2 متر</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/rollup .jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="حامل إعلان بارتفاع 34 سم 2 متر"><i
-                                            class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="حامل إعلان بارتفاع 34 سم 2 متر">
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -426,8 +346,8 @@
                                 <!-- <p>Web</p> -->
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/notbooks.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -441,8 +361,8 @@
                                 <p>App</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/events.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="App 2"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -456,8 +376,8 @@
                                 <p>Card</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/banar.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Card 2"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -471,8 +391,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/flex.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 2"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -486,8 +406,8 @@
                                 <p>App</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/barwaz.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="App 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -501,8 +421,8 @@
                                 <p>Card</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/coffie.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Card 1"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -516,8 +436,8 @@
                                 <p>Card</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/Tshirt.png" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Card 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -531,8 +451,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/stickers.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -545,8 +465,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/venel.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -559,8 +479,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/canvas.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -573,8 +493,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/popup.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -587,8 +507,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/borshor.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -601,8 +521,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/cutest.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -615,8 +535,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/bags.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -629,22 +549,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/prize.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/meddil.jpg" class="img-fluid" alt="" width="170px" />
-                            <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/meddil.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -657,8 +563,8 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/id.png" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"> </a>
+
                                 </div>
                             </div>
                         </div>
@@ -667,64 +573,70 @@
             </div>
         </section>
         <!-- End Portfolio Section -->
-
-
-
-        <!-- End #main -->
-
         <!-- ======= Footer ======= -->
         <footer id="footer">
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6  ">
                             <div class="footer-info">
-                                <h3>Al Farouk</h3>
-                                <p>
-                                    العشرين , فيصل
-                                    <br />
-                                    <br />
-                                    بيانات التواصل
-                                    <br />
-
-                                    <a href="tel:+20 112 490 4055" style="display:block ;">WhatsApp:<span
-                                            style="color:var(--colorThree) ;"> +20 112 490 4055</span></a>
-                                    <a href="tel:+02 37252777" style="display:block ;">Phone:<span
-                                            style="color:var(--colorThree) ;"> +02 37252777</span></a>
-                                    <a href="mailto:alfarouq.adv@gmail.com">alfarouq.adv@gmail.com</a>
-                                </p>
-                                <!-- <div class="social-links mt-3">
-                                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                                </div> -->
+                                <div class=" footer-links">
+                                    <div class="header text-center text-md-end">
+                                        <h4>بيانات الإتصال</h4>
+                                    </div>
+                                    <ul
+                                        class="content d-flex flex-column gap-4 pt-2  align-items-center align-items-md-start">
+                                        <li>
+                                            <i class="bi bi-geo-alt-fill  ms-2"></i> العنوان:
+                                            العشرين , فيصل
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-envelope  ms-2"></i>
+                                            <a href="mailto:alfarouq.adv@gmail.com" class="text-decoration-none lh-base"
+                                                aria-label="company email">
+                                                البريد الالكتروني: alfarouq.adv@gmail.com</a>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-whatsapp ms-2"></i>
+                                            <a href="tel:+20 112 490 4055" class="text-decoration-none"
+                                                aria-label="company WhatsApp number">واتس اب :  0112 490 4055 </a>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-telephone-fill  ms-2"></i>
+                                            <a href="tel:++0237252777" class="text-decoration-none"
+                                                aria-label="company phone number">
+                                                الهاتف :0237252777+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-2 col-md-6 footer-links">
+                        <div class="col-lg-3 col-md-6 footer-links text-center text-md-end">
                             <h4>روابط مفيدة</h4>
-                            <ul>
+                            <ul class="d-flex flex-column align-items-center align-items-md-start">
                                 <li>
                                     <i class="bx bx-chevron-right"></i>
-                                    <a href="#">الصفحة الرئيسية</a>
+                                    <a href="#hero">الصفحة الرئيسية</a>
                                 </li>
                                 <li>
                                     <i class="bx bx-chevron-right"></i>
-                                    <a href="#">من نحن</a>
+                                    <a href="#about">من نحن</a>
                                 </li>
                                 <li>
                                     <i class="bx bx-chevron-right"></i>
-                                    <a href="#">خدماتنا</a>
+                                    <a href="#portfolio">أعمالنا</a>
                                 </li>
-
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#why-us">ما يميز الفاروق</a>
+                                </li>
                             </ul>
                         </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
+                        <div class="col-lg-3 col-md-6 footer-links text-center text-md-end">
                             <h4>خدمات أخرى</h4>
-                            <ul>
+                            <ul class="d-flex flex-column align-items-center align-items-md-start">
                                 <li>
                                     <i class="bx bx-chevron-right"></i>
                                     <a href="#">Web Design</a>
@@ -745,7 +657,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 footer-newsletter " style="display: flex;
+                        <div class="col-lg-3 col-md-6 footer-newsletter " style="display: flex;
                         justify-content: center;
                         align-items: center;">
                             <img src="./assets/img/logo.svg" alt="" width="200px">
@@ -758,25 +670,27 @@
                 <div class="copyright">
                     &copy; Copyright <strong><span>Al Farok</span></strong>. All Rights Reserved
                 </div>
-                <div class="credits">
+                <div class="social-links mt-3 d-flex justify-content-center align-items-center">
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://wa.me/+201124904055" class="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                </div>
+                <!-- <div class="credits">
                     Designed by
                     <a href="https://www.linkedin.com/in/abdelrahman-awad-in/">Abdelrahman awad</a>
-                </div>
+                </div> -->
             </div>
         </footer>
         <!-- End Footer -->
 
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
                 class="bi bi-arrow-up-short"></i></a>
-
         <!-- Vendor JS Files -->
         <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
         <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
         <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-
         <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
 </body>
